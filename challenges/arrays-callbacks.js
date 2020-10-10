@@ -114,7 +114,7 @@ let populationTotal = zooAnimals.reduce((total, animal) => total += animal.popul
  * The consume function should return the invocation of cb, passing a and b into cb as arguments
  */
 
-const consume = function(a, b, cb) {
+function consume (a, b, cb) {
 	return cb(a, b);
 };
 
