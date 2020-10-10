@@ -14,7 +14,7 @@ function myFunction() {
   };
   nestedFunction();
 }
-myFunction();
+//myFunction();
 
 // Explanation: 
 
